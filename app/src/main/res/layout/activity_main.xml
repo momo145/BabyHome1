@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.app.chenxinjian.babyhome.MainActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <com.gc.materialdesign.views.ButtonFloat
+        android:id="@+id/btn_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:background="@color/float_btn_color"
+        materialdesign:animate="true"
+        materialdesign:iconDrawable="@mipmap/ic_video_call_white_48dp" />
+
+    <com.gc.materialdesign.views.ButtonFloat
+        android:id="@+id/btn_add"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/material_cyan_300"
+        materialdesign:animate="true"
+        materialdesign:iconDrawable="@mipmap/ic_add_circle_white_48pt_3x" />
+
+    <com.gc.materialdesign.views.ButtonFloat
+        android:id="@+id/btn_takePhotos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="24dp"
+        android:background="@color/float_btn_color"
+        materialdesign:animate="true"
+        materialdesign:iconDrawable="@mipmap/ic_camera_enhance_white_48dp" />
+
+</RelativeLayout>
